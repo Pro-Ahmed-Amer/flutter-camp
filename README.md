@@ -450,12 +450,12 @@ class _MyAppState extends State<MyApp> {
 
 
 <p align="center" width="100%">
-    <img width="33%" src="Flutter Camp\p-11.jpg" alt="p-11.jpg">
+    <img width="100%" src="Flutter Camp\p-11.jpg" alt="p-11.jpg">
 </p>
 
 
 <p align="center" width="100%">
-    <img width="33%" src="Flutter Camp\p-12.jpg" alt="p-12.jpg">
+    <img width="100%" src="Flutter Camp\p-12.jpg" alt="p-12.jpg">
 </p>
 
 ***
