@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
 
 picture-1
 
-<img src="Flutter Camp\p1.png" alt="p1" style="zoom:80%;" />
+<img src="Flutter Camp\p1.png" alt="p1" style="zoom:80%;" align="center" />
 
 ***
 
