@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
 
 picture-1
 
-<img src="![p1](https://user-images.githubusercontent.com/63548716/154768182-2ad9cd59-857a-4e15-82c9-c27bff70e25d.png)" style="zoom:80%;" />
+![p1](https://user-images.githubusercontent.com/63548716/154768182-2ad9cd59-857a-4e15-82c9-c27bff70e25d.png)
 
 ***
 
