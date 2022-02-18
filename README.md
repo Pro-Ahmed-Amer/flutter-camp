@@ -144,9 +144,9 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-picture-3
-
-<img src="Flutter Camp\p3.png" alt="p3" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p3.png" alt="p3.png">
+</p>
 
 ***
 
@@ -178,9 +178,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-4
 
-<img src="Flutter Camp\p4.png" alt="p4" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p4.png" alt="p4.png">
+</p>
 
 ***
 
@@ -214,9 +215,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-5
 
-<img src="Flutter Camp\p5.png" alt="p5" style="zoom: 80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p5.png" alt="p5.png">
+</p>
 
 ***
 
@@ -254,9 +256,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-6
 
-<img src="Flutter Camp\p6.png" alt="p6" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p6.png" alt="p6.png">
+</p>
 
 ***
 
@@ -297,9 +300,9 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-7
-
-<img src="Flutter Camp\p7.png" alt="p7" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p7.png" alt="p7.png">
+</p>
 
 ***
 
@@ -343,9 +346,9 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-8
-
-<img src="Flutter Camp\p8.png" alt="p8" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p8.png" alt="p8.png">
+</p>
 
 ***
 
@@ -389,9 +392,9 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-9
-
-<img src="Flutter Camp\p9.png" alt="p9" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p9.png" alt="p9.png">
+</p>
 
 ***
 
@@ -435,21 +438,25 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-10
 
-<img src="Flutter Camp\p10.png" alt="p10" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p10.png" alt="p10.png">
+</p>
+
 
 ***
 
 13- Image from File
 
-p-11
 
-<img src="Flutter Camp\p-11.jpg" alt="p-11" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-11.png" alt="p-11.png">
+</p>
 
-p-12
 
-<img src="Flutter Camp\p-12.jpg" alt="p-12" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-12.png" alt="p-12.png">
+</p>
 
 ***
 
@@ -505,9 +512,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-13
 
-<img src="Flutter Camp\p-13.png" alt="p-13" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-13.png" alt="p-13.png">
+</p>
 
 ***
 
@@ -563,9 +571,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-14
 
-<img src="Flutter Camp\p-14.png" alt="p-14" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-14.png" alt="p-14.png">
+</p>
 
 ***
 
@@ -627,9 +636,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-15
 
-<img src="Flutter Camp\p-15.png" alt="p-15" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-15.png" alt="p-15.png">
+</p>
 
 ***
 
@@ -713,9 +723,11 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-16
 
-<img src="Flutter Camp\p-16.png" alt="p-16" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-16.png" alt="p-16.png">
+</p>
+
 
 ***
 
@@ -808,9 +820,11 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-17
 
-<img src="Flutter Camp\p-17.png" alt="p-17" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-17.png" alt="p-17.png">
+</p>
+
 
 ***
 
