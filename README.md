@@ -75,9 +75,10 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-<img align="center" width="100" height="100" src="Flutter Camp\p1.png">
 
-picture-1
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p1.png" alt="p1.png">
+</p>
 
 
 ***
@@ -108,9 +109,11 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-picture-2
 
-<img src="Flutter Camp\p2.png" alt="p2" style="zoom:80%;" />
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p2.png" alt="p2.png">
+</p>
+
 
 ***
 
