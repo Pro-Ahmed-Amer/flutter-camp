@@ -1140,9 +1140,9 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-22
+P-22
 <p align="center" width="100%">
-    <img width="33%" src="Flutter Camp\p-22.png" alt="p-22.png">
+    <img width="33%" src="Flutter Camp\P-22.png" alt="P-22.png">
 </p>
 
 ***
