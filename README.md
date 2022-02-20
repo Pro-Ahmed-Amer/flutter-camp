@@ -934,8 +934,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-18
-
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-18.png" alt="p-18.png">
 </p>
@@ -994,7 +992,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-19
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-19.png" alt="p-19.png">
 </p>
@@ -1044,7 +1041,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-20
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-20.png" alt="p-20.png">
 </p>
@@ -1094,7 +1090,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-21
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-21.png" alt="p-21.png">
 </p>
@@ -1140,7 +1135,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-P-22
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\P-22.png" alt="P-22.png">
 </p>
@@ -1190,7 +1184,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-23
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-23.png" alt="p-23.png">
 </p>
@@ -1241,7 +1234,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-24
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-24.png" alt="p-24.png">
 </p>
@@ -1287,7 +1279,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-25
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-25.png" alt="p-25.png">
 </p>
@@ -1334,7 +1325,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-26
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-26.png" alt="p-26.png">
 </p>
@@ -1401,7 +1391,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 }
 ```
 
-p-27
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-27.png" alt="p-27.png">
 </p>
@@ -1475,7 +1464,6 @@ class GetCheckValueState extends State<GetCheckValue> {
 }
 ```
 
-p-28
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-28.png" alt="p-28.png">
 </p>
@@ -1546,7 +1534,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 }
 ```
 
-p-29
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-29.png" alt="p-29.png">
 </p>
@@ -1599,7 +1586,6 @@ class _Page1State extends State<Page1> {
 }
 ```
 
-p-30
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-30.png" alt="p-30.png">
 </p>
@@ -1737,7 +1723,6 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 }
 ```
 
-p-31
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-31.png" alt="p-31.png">
 </p>
