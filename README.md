@@ -828,3 +828,921 @@ class _MyAppState extends State<MyApp> {
 
 ***
 
+20- Cross Axis & Main Axis
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+
+          Container(
+            height: 100,
+            color: Colors.orange,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text("row1",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row2",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row3",style: TextStyle(fontSize: 25),)
+              ],
+            ),
+          ),
+
+          SizedBox(height: 20,),
+          Container(
+            height: 100,
+            color: Colors.deepPurple,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text("row1",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row2",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row3",style: TextStyle(fontSize: 25),)
+              ],
+            ),
+          ),
+
+          SizedBox(height: 20,),
+          Container(
+            height: 100,
+            color: Colors.blue,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text("row1",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row2",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row3",style: TextStyle(fontSize: 25),)
+              ],
+            ),
+          ),
+
+          Container(
+            height: 100,
+            color: Colors.orange,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text("row1",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row2",style: TextStyle(fontSize: 25),),
+                SizedBox(width: 20,),
+                Text("row3",style: TextStyle(fontSize: 25),)
+              ],
+            ),
+          ),
+        ],
+      )
+    );
+  }
+}
+```
+
+p-18
+
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-18.png" alt="p-18.png">
+</p>
+
+***
+
+21- Children Icon
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Container(
+            height: 100,
+            color: Colors.orange,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Icon(Icons.call,size: 30,color: Colors.black,),
+                Icon(Icons.home,size: 30,color: Colors.black,),
+                Icon(Icons.info,size: 30,color: Colors.black,)
+              ],
+            ),
+          ),
+        ],
+      )
+    );
+  }
+}
+```
+
+p-19
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-19.png" alt="p-19.png">
+</p>
+
+***
+
+22-  Margin
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child: Container(
+          margin: EdgeInsets.only(left: 80),
+          height: 50,
+          width: 250,
+          color: Colors.orange,
+          child: Center(
+            child: Text(" EdgeInsets.only(left: 80) "),
+          )
+        ),
+      )
+    );
+  }
+}
+```
+
+p-20
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-20.png" alt="p-20.png">
+</p>
+
+***
+
+23- Padding
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child: Container(
+          padding: EdgeInsets.only(left: 80),
+          height: 50,
+          width: 250,
+          color: Colors.orange,
+          child: Center(
+            child: Text(" EdgeInsets.only(left: 80) "),
+          )
+        ),
+      )
+    );
+  }
+}
+```
+
+p-21
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-21.png" alt="p-21.png">
+</p>
+
+***
+
+24- Button
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child: ElevatedButton(
+          onPressed: () {
+          },
+          child: Text("Press here"),
+        ),
+      )
+    );
+  }
+}
+```
+
+p-22
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-22.png" alt="p-22.png">
+</p>
+
+***
+
+25- Button Radius
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child: ElevatedButton(
+          onPressed: () {
+          },
+          style: ElevatedButton.styleFrom(shape: new RoundedRectangleBorder(
+            borderRadius: new BorderRadius.circular(30.0),
+          ),),
+          child: Text("Press here"),
+        ),
+      )
+    );
+  }
+}
+```
+
+p-23
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-23.png" alt="p-23.png">
+</p>
+
+***
+
+26- List View & List Title
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:ListView.builder(
+          itemCount: 5,
+          itemBuilder: (BuildContext context,int index){
+            return ListTile(
+                leading: Icon(Icons.list),
+                trailing: Text("GFG",
+                  style: TextStyle(
+                      color: Colors.green,fontSize: 15),),
+                title:Text("List item $index")
+            );
+          }
+      ),
+    );
+  }
+}
+```
+
+p-24
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-24.png" alt="p-24.png">
+</p>
+
+***
+
+27- Text Field
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child:TextField(
+          decoration: InputDecoration(
+            border: OutlineInputBorder(),
+            labelText: 'Full Name',
+          ),
+        )),
+    );
+  }
+}
+```
+
+p-25
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-25.png" alt="p-25.png">
+</p>
+
+***
+
+28- Text Field Type Password
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child:TextField(
+          obscureText: true,
+          decoration: InputDecoration(
+            border: OutlineInputBorder(),
+            labelText: 'Password',
+          ),
+        )),
+    );
+  }
+}
+```
+
+p-26
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-26.png" alt="p-26.png">
+</p>
+
+***
+
+29- Radio Check => [Online](https://api.flutter.dev/flutter/material/RadioListTile-class.html)
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+  static const String _title = 'Flutter Code Sample';
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: _title,
+      home: Scaffold(
+        appBar: AppBar(title: const Text(_title)),
+        body: const MyStatefulWidget(),
+      ),
+    );
+  }
+}
+enum SingingCharacter { lafayette, jefferson }
+class MyStatefulWidget extends StatefulWidget {
+  const MyStatefulWidget({Key? key}) : super(key: key);
+  @override
+  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();
+}
+class _MyStatefulWidgetState extends State<MyStatefulWidget> {
+  SingingCharacter? _character = SingingCharacter.lafayette;
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: <Widget>[
+        RadioListTile<SingingCharacter>(
+          title: const Text('Lafayette'),
+          value: SingingCharacter.lafayette,
+          groupValue: _character,
+          onChanged: (SingingCharacter? value) {
+            setState(() {
+              _character = value;
+            });
+          },
+        ),
+        RadioListTile<SingingCharacter>(
+          title: const Text('Thomas Jefferson'),
+          value: SingingCharacter.jefferson,
+          groupValue: _character,
+          onChanged: (SingingCharacter? value) {
+            setState(() {
+              _character = value;
+            });
+          },
+        ),
+      ],
+    );
+  }
+}
+```
+
+p-27
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-27.png" alt="p-27.png">
+</p>
+
+***
+
+30- Check Box
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: GetCheckValue(),));
+}
+
+class GetCheckValue extends StatefulWidget {
+  @override
+  GetCheckValueState createState() {
+    return new GetCheckValueState();
+  }
+}
+
+class GetCheckValueState extends State<GetCheckValue> {
+  bool _isChecked = true;
+  String _currText = '';
+
+  List<String> text = [ "Flutter.io"];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Get check Value Example"),
+      ),
+      body: Column(
+        children: <Widget>[
+          Expanded(
+            child: Center(
+              child: Text(_currText,
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold,
+                  )),
+            ),
+          ),
+          Expanded(
+              child: Container(
+                height: 350.0,
+                child: Column(
+                  children: text
+                      .map((t) => CheckboxListTile(
+                    title: Text(t),
+                    value: _isChecked,
+                    onChanged: (val) {
+                      setState(() {
+                        _isChecked = val!;
+                        if (val == true) {
+                          _currText = t;
+                        }
+                      });
+                    },
+                  ))
+                      .toList(),
+                ),
+              )),
+        ],
+      ),
+    );
+  }
+}
+```
+
+p-28
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-28.png" alt="p-28.png">
+</p>
+
+***
+
+31- Option List
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  static const String _title = 'Flutter Code Sample';
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: _title,
+      home: Scaffold(
+        appBar: AppBar(title: const Text(_title)),
+        body: const Center(
+          child: MyStatefulWidget(),
+        ),
+      ),
+    );
+  }
+}
+
+class MyStatefulWidget extends StatefulWidget {
+  const MyStatefulWidget({Key? key}) : super(key: key);
+
+  @override
+  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();
+}
+
+class _MyStatefulWidgetState extends State<MyStatefulWidget> {
+  String dropdownValue = 'One';
+
+  @override
+  Widget build(BuildContext context) {
+    return DropdownButton<String>(
+      value: dropdownValue,
+      icon: const Icon(Icons.arrow_downward),
+      elevation: 16,
+      style: const TextStyle(color: Colors.deepPurple),
+      underline: Container(
+        height: 2,
+        color: Colors.deepPurpleAccent,
+      ),
+      onChanged: (String? newValue) {
+        setState(() {
+          dropdownValue = newValue!;
+        });
+      },
+      items: <String>['One', 'Two', 'Free', 'Four']
+          .map<DropdownMenuItem<String>>((String value) {
+        return DropdownMenuItem<String>(
+          value: value,
+          child: Text(value),
+        );
+      }).toList(),
+    );
+  }
+}
+```
+
+p-29
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-29.png" alt="p-29.png">
+</p>
+
+***
+
+32- Card
+
+```dart
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: Page1(),));
+}
+
+class Page1 extends StatefulWidget {
+  const Page1({Key? key}) : super(key: key);
+  @override
+  _Page1State createState() => _Page1State();
+}
+
+class _Page1State extends State<Page1> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.grey,title: Text("Emaar Co."),),
+      body:Center(
+        child:Card(
+          elevation: 2,
+          child: Container(
+            height:80,
+            width: 350,
+            child: Center(
+              child: Text(
+                "Hello i am Card"
+              ),
+            ),
+          ),
+        )
+      ),
+    );
+  }
+}
+```
+
+p-30
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-30.png" alt="p-30.png">
+</p>
+
+***
+
+33- Login Card UI
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  static const String _title = 'Sample App';
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: _title,
+      home: Scaffold(
+
+        body: const MyStatefulWidget(),
+      ),
+    );
+  }
+}
+
+class MyStatefulWidget extends StatefulWidget {
+  const MyStatefulWidget({Key? key}) : super(key: key);
+
+  @override
+  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();
+}
+
+class _MyStatefulWidgetState extends State<MyStatefulWidget> {
+  TextEditingController nameController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Card(
+          elevation: 5,
+          child: Container(
+            height: 500,
+            width: 350,
+            decoration: BoxDecoration(
+                border: Border.all(color: Colors.blueAccent)
+            ),
+            child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: ListView(
+                  children: <Widget>[
+                    Container(
+                        alignment: Alignment.center,
+                        padding: const EdgeInsets.all(10),
+                        child: const Text(
+                          'TutorialKart',
+                          style: TextStyle(
+                              color: Colors.blue,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 30),
+                        )),
+                    Container(
+                        alignment: Alignment.center,
+                        padding: const EdgeInsets.all(10),
+                        child: const Text(
+                          'Sign in',
+                          style: TextStyle(fontSize: 20),
+                        )),
+                    Container(
+                      padding: const EdgeInsets.all(10),
+                      child: TextField(
+                        controller: nameController,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'User Name',
+                        ),
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                      child: TextField(
+                        obscureText: true,
+                        controller: passwordController,
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: 'Password',
+                        ),
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () {
+                        //forgot password screen
+                      },
+                      child: const Text('Forgot Password',),
+                    ),
+                    Container(
+                        height: 50,
+                        padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                        child: ElevatedButton(
+                          child: const Text('Login'),
+                          onPressed: () {
+                            print(nameController.text);
+                            print(passwordController.text);
+                          },
+                        )
+                    ),
+                    Row(
+                      children: <Widget>[
+                        const Text('Does not have account?'),
+                        TextButton(
+                          child: const Text(
+                            'Sign in',
+                            style: TextStyle(fontSize: 20),
+                          ),
+                          onPressed: () {
+                            //signup screen
+                          },
+                        )
+                      ],
+                      mainAxisAlignment: MainAxisAlignment.center,
+                    ),
+                  ],
+                )),
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
+
+p-31
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-31.png" alt="p-31.png">
+</p>
+
+***
+
+34- End
+
