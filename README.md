@@ -1775,7 +1775,6 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-p-32
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-32.png" alt="p-32.png">
 </p>
@@ -1886,7 +1885,7 @@ class SecondRoute extends StatelessWidget {
 ```
 
 p-33
-<p align="center" width="100%">
+<p align="center" width="1000px">
     <img width="33%" src="Flutter Camp\p-33.png" alt="p-33.png">
 </p>
 
