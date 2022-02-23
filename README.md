@@ -1884,7 +1884,6 @@ class SecondRoute extends StatelessWidget {
 }
 ```
 
-p-33
 <p align="center" width="1000px">
     <img width="33%" src="Flutter Camp\p-33.png" alt="p-33.png">
 </p>
@@ -1919,7 +1918,7 @@ p-33
 
 41- Flutter Flow GUI & Deal With It => [Click Here](https://flutterflow.io/)
 
-p-34
+
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-34.png" alt="p-34.png">
 </p>
@@ -1930,7 +1929,6 @@ p-34
 
 **<u>Notice:</u>** Should Setup [Mamp] or Any Local Server on Your PC. <u>**[Click To Download MAMP](https://www.mamp.info/en/downloads/)**</u>.
 
-p-35
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-35.png" alt="p-35.png">
 </p>
@@ -2026,7 +2024,6 @@ ORDER BY points DESC;
 
 49- [Github](https://github.com/) 
 
-p-36
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-36.png" alt="p-36.png">
 </p>
