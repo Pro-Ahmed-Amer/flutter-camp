@@ -1729,5 +1729,313 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
 ***
 
-34- End
+34- Bottom Navigation Bar
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: MyApp(),));
+}
+
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Colors.black,title: Text("DNA SCHOLARSHIP"),),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.business),
+            label: 'Business',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.school),
+            label: 'School',
+          ),
+        ],
+        currentIndex: _selectedIndex,
+        selectedItemColor: Colors.amber[800],
+        onTap: _onItemTapped,
+      ),
+      body: Text("Test Text",style: TextStyle(fontSize: 20,color: Colors.deepPurpleAccent),),
+    );
+  }
+}
+```
+
+p-32
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-32.png" alt="p-32.png">
+</p>
+
+***
+
+35- Routing or Navigator Between Pages
+
+- Push => Go to new page
+
+```dart
+class FirstRoute extends StatelessWidget {
+  const FirstRoute({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('First Route'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          child: const Text('Open route'),
+          onPressed: () {
+            // Navigate to second route when tapped.
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class SecondRoute extends StatelessWidget {
+  const SecondRoute({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Second Route'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            // Navigate back to first route when tapped.
+          },
+          child: const Text('Go back!'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+- Pop => Get back to last page
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MaterialApp(
+    title: 'Navigation Basics',
+    home: FirstRoute(),
+  ));
+}
+
+class FirstRoute extends StatelessWidget {
+  const FirstRoute({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('First Route'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          child: const Text('Open route'),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const SecondRoute()),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class SecondRoute extends StatelessWidget {
+  const SecondRoute({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Second Route'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: const Text('Go back!'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+p-33
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-33.png" alt="p-33.png">
+</p>
+
+***
+
+36- Passing Data Between Pages
+
+```
+- After build all dart pages, We need to create new dart file called like (database.dart |or| data.dart).
+- After that, We need to write all Variables and write the values.
+- Then, We can use those data in anywhere. By the way, You must use the same variables names.
+```
+
+***
+
+37- Add [Alert] Library => [Click Here](https://pub.dev/packages/cool_alert)
+
+***
+
+38- Add [Http] Library => [Click Here](https://pub.dev/packages/http)
+
+***
+
+39- Add [intl] Library => [Click Here](https://pub.dev/packages/intl)
+
+***
+
+40- Add [Flashy] Library => [Click Here](https://pub.dev/packages/flashy_tab_bar2)
+
+***
+
+41- Flutter Flow GUI & Deal With It => [Click Here](https://flutterflow.io/)
+
+p-34
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-34.png" alt="p-34.png">
+</p>
+
+***
+
+43- MySQL => GUI & Deal With It
+
+**<u>Notice:</u>** Should Setup [Mamp] or Any Local Server on Your PC. <u>**[Click To Download MAMP](https://www.mamp.info/en/downloads/)**</u>.
+
+p-35
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-35.png" alt="p-35.png">
+</p>
+
+***
+
+44- MySQL => Insert Query
+
+```mysql
+INSERT INTO "table_name"
+("column1", "column2", "column3", ...)
+VALUES 
+('value1', "value2", 'value3', ...); 
+```
+
+```mysql
+INSERT INTO tb1 
+(id, fname, lname, age, birthdate)
+VALUES 
+(1, 'Ahmed', 'Amer', 22, '1/2/2000');
+```
+
+***
+
+45- MySQL => Update Query
+
+```mysql
+UPDATE table_name
+SET 
+column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+```mysql
+UPDATE tb1
+SET 
+fname = 'Dev', lname = 'Mustafa', birthdate = '3/5/2000'
+WHERE id = 2;
+```
+
+***
+
+46- MySQL => Delete Query
+
+```mysql
+DELETE FROM table_name
+WHERE 
+condition;
+```
+
+```mysql
+DELETE * FROM tb1
+WHERE
+id = 2;
+```
+
+***
+
+47- MySQL => Select Query
+
+```mysql
+SELECT 
+column1, column2, ...
+FROM 
+table_name;
+```
+
+```mysql
+SELECT * FROM tb1;
+```
+
+```mysql
+SELECT * FROM tb1
+WHERE id = 2;
+```
+
+***
+
+48- MySQL => Select Condition Query
+
+```mysql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+```
+
+```mysql
+SELECT * FROM `tb1`
+ORDER BY points DESC;
+```
+
+***
+
+49- [Github](https://github.com/) 
+
+p-36
+<p align="center" width="100%">
+    <img width="33%" src="Flutter Camp\p-36.png" alt="p-36.png">
+</p>
+
+***
+
+50- End
+
+p-37
+
 
