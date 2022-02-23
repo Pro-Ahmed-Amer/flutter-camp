@@ -1925,7 +1925,7 @@ class SecondRoute extends StatelessWidget {
 
 ***
 
-43- MySQL => GUI & Deal With It
+42- MySQL => GUI & Deal With It
 
 **<u>Notice:</u>** Should Setup [Mamp] or Any Local Server on Your PC. <u>**[Click To Download MAMP](https://www.mamp.info/en/downloads/)**</u>.
 
@@ -1935,7 +1935,7 @@ class SecondRoute extends StatelessWidget {
 
 ***
 
-44- MySQL => Insert Query
+43- MySQL => Insert Query
 
 ```mysql
 INSERT INTO "table_name"
@@ -1953,7 +1953,7 @@ VALUES
 
 ***
 
-45- MySQL => Update Query
+44- MySQL => Update Query
 
 ```mysql
 UPDATE table_name
@@ -1971,7 +1971,7 @@ WHERE id = 2;
 
 ***
 
-46- MySQL => Delete Query
+45- MySQL => Delete Query
 
 ```mysql
 DELETE FROM table_name
@@ -1987,7 +1987,7 @@ id = 2;
 
 ***
 
-47- MySQL => Select Query
+46- MySQL => Select Query
 
 ```mysql
 SELECT 
@@ -2007,7 +2007,7 @@ WHERE id = 2;
 
 ***
 
-48- MySQL => Select Condition Query
+47- MySQL => Select Condition Query
 
 ```mysql
 SELECT column1, column2, ...
@@ -2022,7 +2022,7 @@ ORDER BY points DESC;
 
 ***
 
-49- [Github](https://github.com/) 
+48- [Github](https://github.com/) 
 
 <p align="center" width="100%">
     <img width="33%" src="Flutter Camp\p-36.png" alt="p-36.png">
@@ -2030,7 +2030,7 @@ ORDER BY points DESC;
 
 ***
 
-50- End
+49- End
 
 p-37
 
